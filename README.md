@@ -1,22 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>Untitled Document.md</title>
-    <script type="text/javascript">
-        //<![CDATA[
-        window.__cfRocketOptions = {
-            byc: 0,
-            p: 0,
-            petok: "838309960e82ca6bad2f558121a6c26b765f1ba1-1514247928-1800"
-        };
-        //]]>
-    </script>
-    <script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/9014afdb/cloudflare-static/rocket.min.js"></script>
-    <style></style>
-</head>
-
 <body id="preview">
     <h1><a id="Recognition_of_sharp_outbursts_on_the_graph_0"></a>Recognition of sharp outbursts on the graph</h1>
     <p>Before recognition, the series undergoes preprocessing in the form of a Holt-Winters smoothing, and dividing each co- ordinate by a burst factor. Since the data are discrete, a formula for detecting strong oscillations on a graph, such as: </p>
