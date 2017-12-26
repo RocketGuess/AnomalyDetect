@@ -9,12 +9,12 @@ The time series is represented as a function of x (t), where t is the time of th
 ![](https://github.com/fenics1/AnomalyDetect/blob/master/git_statics/time_function.png)
 
 Neural network: a fully connected perceptron with three layers and architecture:
-x -> w1 -> relus -> w2 -> relu -> w3 -> softmax
+* x -> w1 -> relus -> w2 -> relu -> w3 -> softmax
 
-Input size: 100
-First hidden size: 55
-Seconds hidden size: 1024
-Output size: 2 (anomaly or not anomaly)
+1. Input size: 100
+2. First hidden size: 55
+3. Seconds hidden size: 1024
+4. Output size: 2 (anomaly or not anomaly)
 
 Loss function: [cross entropy for softmax](http://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html?highlight=cross#cross-entropy)
 
