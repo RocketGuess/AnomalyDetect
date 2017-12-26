@@ -33,7 +33,7 @@ Network training: [Method of back propagation error](https://ru.wikipedia.org/wi
 
 ##### <a id="For_server_5"></a>For server:
 
-*   [flask](http://flask.pocoo.org/)
+*   [aiohttp](https://aiohttp.readthedocs.io/en/stable/)
 *   [numpy](http://www.numpy.org/)
 
     Install: pip3 install flask numpy
