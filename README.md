@@ -2,12 +2,16 @@
 
 Before recognition, the series undergoes preprocessing in the form of a Holt-Winters smoothing, and dividing each co- ordinate by a burst factor. Since the data are discrete, a formula for detecting strong oscillations on a graph, such as:
 
-![](https://github.com/fenics1/AnomalyDetect/blob/master/git_statics/burst_factor.png)
-
+<div align="center">
+  <img src="https://github.com/fenics1/AnomalyDetect/blob/master/git_statics/burst_factor.png"><br><br>
+</div>
+---
 The time series is represented as a function of x (t), where t is the time of the coordinate, and in this case the index in the array, the time series is represented by the formula:
 
-![](https://github.com/fenics1/AnomalyDetect/blob/master/git_statics/time_function.png)
-
+<div align="center">
+  <img src="https://github.com/fenics1/AnomalyDetect/blob/master/git_statics/time_function.png"><br><br>
+</div>
+---
 Neural network: a fully connected perceptron with three layers and architecture:
 * x -> w1 -> relus -> w2 -> relu -> w3 -> softmax
 
