@@ -6,7 +6,9 @@
     <p align="center">
         <img src="https://github.com/fenics1/AnomalyDetect/blob/master/git_statics/burst_factor.png">
     </p>
-
+    <p>The time series is represented as a function of x (t), where t is the time of the coordinate, and in this case the index in the array, the time series is represented by the formula:</p>
+    <p align="center">
+        <img src="https://github.com/fenics1/AnomalyDetect/blob/master/git_statics/time_function.png">
+    </p>
 </body>
-
 </html>
