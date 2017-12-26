@@ -36,7 +36,7 @@ Network training: [Method of back propagation error](https://ru.wikipedia.org/wi
 *   [aiohttp](https://aiohttp.readthedocs.io/en/stable/)
 *   [numpy](http://www.numpy.org/)
 
-    Install: pip3 install flask numpy
+    Install: pip3 install aiohttp numpy
 
 ##### <a id="For_network_train_11"></a>For network train:
 
