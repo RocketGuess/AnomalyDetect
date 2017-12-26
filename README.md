@@ -55,7 +55,7 @@ Server test.
 RESPONSE:
 
     {
-        "server": "Server start in 8000 port."
+        "server": "Server start in 8080 port."
     }
 
 * * *
