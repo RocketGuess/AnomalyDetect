@@ -27,7 +27,7 @@ Network training: [Method of back propagation error](https://ru.wikipedia.org/wi
 
 ## <a id="Quick_start_0"></a>Quick start
 
-    ./start.sh
+    make docker_build && make docker_up
 
 ## <a id="Dependencies_4"></a>Dependencies
 
