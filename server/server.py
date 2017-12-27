@@ -38,7 +38,7 @@ def get_burst_factor(series):
 # Server default url
 async def index(request):
     return aiohttp.web.json_response({
-        'server': 'Server start in 8080 port.'
+        'server': 'Server start in 5858 port.'
     })
 
 
@@ -100,4 +100,4 @@ def init():
 
 
 if __name__ == '__main__':
-    aiohttp.web.run_app(init())
+    aiohttp.web.run_app(init(), port=5858)
